@@ -730,10 +730,12 @@ ul.social-buttons li a:active {
 ::-moz-selection {
   text-shadow: none;
   background: #CC0000;
+  color: #fff;
 }
 ::selection {
   text-shadow: none;
   background: #CC0000;
+  color: #fff;
 }
 img::selection {
   background: transparent;

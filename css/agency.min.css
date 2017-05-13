@@ -725,11 +725,13 @@ ul.social-buttons li a:hover {
 }
 ::-moz-selection {
     text-shadow: none;
-    background: #CC0000
+    background: #CC0000;
+    color:#fff;
 }
 ::selection {
     text-shadow: none;
-    background: #CC0000
+    background: #CC0000;
+    color:#fff;
 }
 img::selection {
     background: 0 0
