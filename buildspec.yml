@@ -1,7 +1,0 @@
-version: 0.1
-   
-phases:
-  build:
-    commands:
-      - echo "******** Uploading to S3 ********"
-      - aws s3 sync _site/ s3://zoph.io
