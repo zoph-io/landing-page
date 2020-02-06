@@ -39,44 +39,6 @@
     ga('create', 'UA-97732069-1', 'auto');
     ga('send', 'pageview');
 </script>
-<script type = "text/javascript" >
-
-        var Destination = new Array();
-
-    Destination["fr-FR"] = "https://zoph.io/index.html";
-    Destination["fr"] = "https://zoph.io/index.html";
-
-    var DefaultDestination = "https://zoph.io/index-en.html";
-
-    var lang = navigator.language ? navigator.language :
-        navigator.browserlanguage ? navigator.browserlanguage :
-        navigator.systemLanguage ? navigator.systemLanguage :
-        navigator.userLanguage ? navigator.userLanguage :
-        '---';
-    lang = lang.toLowerCase();
-    var dest = new String();
-    for (var t in Destination) {
-        if (t == lang) {
-            dest = Destination[t];
-            break;
-        }
-    }
-    if (dest.length == 0) {
-        lang = lang.substr(0, 2);
-        for (var t in Destination) {
-            if (t == lang) {
-                dest = Destination[t];
-                break;
-            }
-        }
-    }
-    if (dest.length == 0) {
-        dest = DefaultDestination;
-    }
-    if (dest.length > 0) {
-        location.href = dest;
-    }
-</script>
 </head>
 
 <body id="page-top" class="index">
