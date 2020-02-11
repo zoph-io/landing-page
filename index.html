@@ -49,20 +49,9 @@
     var langEn = ['en-us', 'en'];
     var isEn = (langEn.includes(lang) || langEn.includes(lang.substr(0, 2)));
     if (isEn) {
-        if (document.referer =='https://zoph.io/index.html') null;
+        if (document.referer = 'https://zoph.io/index.html') null;
         else location.href = 'https://zoph.io/index-en.html';
     }
-</script>
-<script type = "text/javascript" >
-    var lang = navigator.language ? navigator.language :
-    navigator.browserlanguage ? navigator.browserlanguage :
-        navigator.systemLanguage ? navigator.systemLanguage :
-            navigator.userLanguage ? navigator.userLanguage :
-                '---';
-    lang = lang.toLowerCase();
-    var langEn = ['en-us', 'en'];
-    var isEn = (langEn.includes(lang) || langEn.includes(lang.substr(0, 2)));
-    if (isEn) location.href = 'https://zoph.io/index-en.html';
 </script>
 </head>
 
