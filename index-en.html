@@ -46,7 +46,7 @@
             navigator.userLanguage ? navigator.userLanguage :
                 '---';
     lang = lang.toLowerCase();
-    var langEn = ['fr-fr', 'fr'];
+    var langEn = ['en-US', 'en'];
     var isEn = (langEn.includes(lang) || langEn.includes(lang.substr(0, 2)));
     if (isEn) {
         if (window.location.href !=='https://zoph.io/index-en.html') location.href = 'https://zoph.io/index-en.html';
