@@ -49,9 +49,9 @@
     var langEn = ['fr-fr', 'fr'];
     var isEn = (langEn.includes(lang) || langEn.includes(lang.substr(0, 2)));
     if (isEn) {
-        location.href = 'https://zoph.io/index.html';
+        if (window.location.href !=='https://zoph.io/index-en.html') location.href = 'https://zoph.io/index-en.html';
     } else {
-        location.href = 'https://zoph.io/index-en.html';
+        if (window.location.href !=='https://zoph.io/index.html') location.href = 'https://zoph.io/index.html';
     }
 </script>
 </head>
