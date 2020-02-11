@@ -39,6 +39,17 @@
     ga('create', 'UA-97732069-1', 'auto');
     ga('send', 'pageview');
 </script>
+<script type = "text/javascript" >
+    var lang = navigator.language ? navigator.language :
+    navigator.browserlanguage ? navigator.browserlanguage :
+        navigator.systemLanguage ? navigator.systemLanguage :
+            navigator.userLanguage ? navigator.userLanguage :
+                '---';
+    lang = lang.toLowerCase();
+    var langEn = ['en-us', 'en'];
+    var isEn = (langEn.includes(lang) || langEn.includes(lang.substr(0, 2)));
+    if (!isEn) location.href = 'https://zoph.io/index.html';
+</script>
 </head>
 
 <body id="page-top" class="index">
