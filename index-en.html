@@ -49,8 +49,7 @@
     var langEn = ['en-us', 'en'];
     var isEn = (langEn.includes(lang) || langEn.includes(lang.substr(0, 2)));
       if (!isEn) {
-        if (document.referrer = 'https://zoph.io/index.html') null;
-        else location.href = 'https://zoph.io/index.html';
+        if (document.referrer != "") location.href = 'https://zoph.io/index.html';
     }
 </script>
 </head>
