@@ -46,9 +46,19 @@
             navigator.userLanguage ? navigator.userLanguage :
                 '---';
     lang = lang.toLowerCase();
+<<<<<<< HEAD
     var langEn = ['en-us', 'en'];
     var isEn = (langEn.includes(lang) || langEn.includes(lang.substr(0, 2)));
     if (!isEn) location.href = 'https://zoph.io/index.html';
+=======
+    var langEn = ['en-US', 'en'];
+    var isEn = (langEn.includes(lang) || langEn.includes(lang.substr(0, 2)));
+    if (isEn) {
+        if (window.location.href !=='https://zoph.io/index-en.html') location.href = 'https://zoph.io/index-en.html';
+    } else {
+        if (window.location.href !=='https://zoph.io/index.html') location.href = 'https://zoph.io/index.html';
+    }
+>>>>>>> be560c08d7b7d6c55ea22cd7fc209ed8c0949750
 </script>
 </head>
 
