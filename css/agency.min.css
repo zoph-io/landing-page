@@ -147,8 +147,8 @@ fieldset[disabled] .btn-xl:hover {
 .navbar-custom .navbar-brand {
     /*color: #CC0000;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive*/
-    width:190px;
-    height:53px;
+    width:210px;
+    height:57px;
     background-image:url(../img/logo-smallest.png);
     background-repeat:no-repeat; 
     margin:5px 0 0 5px; /*better position*/
@@ -207,8 +207,8 @@ fieldset[disabled] .btn-xl:hover {
     }
     .navbar-custom .navbar-brand {
         /*font-size: 2em;*/
-        width:220px;
-        height:60px;
+        width:240px;
+        height:65px;
         background-image:url(../img/logo-right.png);
         background-repeat:no-repeat;
         -webkit-transition: all .3s;
