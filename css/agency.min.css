@@ -227,7 +227,7 @@ fieldset[disabled] .btn-xl:hover {
     }
 }
 header {
-    background-image: url(../img/header-bg.jpg);
+    background-image: url('https://source.unsplash.com/1900x1100/?geek,computer,cloud');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
