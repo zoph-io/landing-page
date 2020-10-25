@@ -2,7 +2,7 @@ This is my freelancer website, i'm using as a simple landing page.
 
 This website is based on `Bootstrap` framework, more info below.
 
-Contact me on any question : hello@zoph.io
+Contact me on any question : [hello@zoph.io](mailto:hello@zoph.io)
 
 # [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
